@@ -28,7 +28,7 @@ If you need help, need to increase a data quota, or want to report a problem, pl
 ---
 ## Common Use Cases of RepeatExplorer Server
 
-The RepeatExplorer server provides a suite of tools designed for the comprehensive analysis of repetitive DNA sequences in genomic data. Here are the most common use cases for utilizing these powerful tools:
+The RepeatExplorer server provides a suite of tools designed for the comprehensive analysis of repetitive DNA sequences in genomic data. Here are the most common use cases for utilizing these tools:
 
 - **Annotation of Repeats Directly from Low Coverage Sequencing**: Can be accomplished using the RepeatExplorer2 tool. This approach is ideal for initial exploration and annotation of repetitive sequences using low coverage data (refer to protocol 1 in the step-by-step protocols above).
 

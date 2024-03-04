@@ -11,16 +11,16 @@ This RepeatExplorer Galaxy portal is a part of services provided by [ELIXIR](htt
 ---
 ## Contact information
 
-If you need help, increase a data quota, or you want to report a problem, please contact [server administrator](mailto:regalaxy@rt.cesnet.cz). If you encounter an error while running a tool, please report a bug using the bug icon in the dataset history.
+If you need help, need to increase a data quota, or want to report a problem, please contact [server administrator](mailto:regalaxy@rt.cesnet.cz). If you encounter an error while running a tool, please report a bug using the bug icon in the dataset history.
 
 ---
 ## Resources
 
-- [Step by step protocols](https://rdcu.be/b80Gr)  include four protocols how to use main RepeatExplorer tools
+- [Step by step protocols](https://rdcu.be/b80Gr) include four protocols on how to use main RepeatExplorer tools
 - [Documentation and training information](http://repeatexplorer.org/)
 - [The impact of genome coverage and sequence read sampling on reproducibility of repeat identification](http://repeatexplorer.org/?page_id=179)
 - Official [Galaxy Project](https://galaxyproject.org/) website with information on how to use the Galaxy platform
-- For command line version of the RepeatExplorer tools, see the source [code repository](https://bitbucket.org/petrnovak/repex_tarean/)
+- For the command line version of the RepeatExplorer tools, see the source [code repository](https://github.com/kavonrtep/repex_tarean)
 
 [Follow @RepeatExplorer](https://twitter.com/RepeatExplorer?ref_src=twsrc%5Etfw)
 
@@ -30,11 +30,11 @@ If you need help, increase a data quota, or you want to report a problem, please
 
 The RepeatExplorer server provides a suite of tools designed for the comprehensive analysis of repetitive DNA sequences in genomic data. Here are the most common use cases for utilizing these powerful tools:
 
-- **Annotation of Repeats Directly from Low Coverage Sequencing**: Can be accomplished using RepeatExplorer2 tool. This approach is ideal for initial exploration and annotation of repetitive sequences using low coverage data (refer to protocol 1 in the step-by-step protocols above).
+- **Annotation of Repeats Directly from Low Coverage Sequencing**: Can be accomplished using the RepeatExplorer2 tool. This approach is ideal for initial exploration and annotation of repetitive sequences using low coverage data (refer to protocol 1 in the step-by-step protocols above).
 
 - **Comparative Analysis of Repeats in Multiple Species from Low Coverage Sequencing Reads**: Use protocol 2 for analyzing repetitive DNA across different species.
 
-- **Tandem Repeat Annotation from Low Coverage Sequencing**: If your focus is primarily on tandem repeats, the Tandem Repeat Analyzer tool (TAREAN) See protocol 3 in the step-by-step protocols for details
+- **Tandem Repeat Annotation from Low Coverage Sequencing**: If your focus is primarily on tandem repeats, the Tandem Repeat Analyzer tool (TAREAN). See protocol 3 in the step-by-step protocols for details
 
 - **Chip-Seq Experiments**: The ChIP-seq Mapper tool identifies centromeric repeats from ChIP-seq data without the need for a complete genome assembly, leveraging assembled contigs from repeat clusters as a reference for mapping reads and highlighting significant repeats. (refer to protocol 4).
 

@@ -1,5 +1,3 @@
-# RepeatExplorer server
-
 ![Welcome to RepeatExplorer](images/RE_header.png)
 
 Developed and maintained by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), Institute of Plant Molecular Biology, Biology Centre CAS, Ceske Budejovice, Czech Republic

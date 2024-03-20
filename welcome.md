@@ -2,7 +2,7 @@
 
 Developed and maintained by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), Institute of Plant Molecular Biology, Biology Centre CAS, Ceske Budejovice, Czech Republic
 
-This RepeatExplorer Galaxy portal is a part of services provided by [ELIXIR](https://www.elixir-czech.cz/) (European research infrastructure for biological information). Please acknowledge this fact in your publications by adding a statement: “*Computational resources for RepeatExplorer analysis were provided by the ELIXIR-CZ project (LM2023055), part of the international ELIXIR infrastructure.*”
+This RepeatExplorer Galaxy portal is a part of services provided by [ELIXIR](https://www.elixir-czech.cz/) (European Research Infrastructure for Biological Information). Please acknowledge this fact in your publications by adding a statement: “*Computational resources for RepeatExplorer analysis were provided by the ELIXIR-CZ project (LM2023055), part of the international ELIXIR infrastructure.*”
 
 ![ELIXIR](images/ELIXIR_CZECHREPUBLIC_white_background_small.png)
 
@@ -14,7 +14,8 @@ If you need help, need to increase a data quota, or want to report a problem, pl
 ---
 ## Resources
 
-- [Step by step protocols](https://rdcu.be/b80Gr) include four protocols on how to use main RepeatExplorer tools
+- [Step-by-step protocols](https://rdcu.be/b80Gr) include four protocols on how to use main RepeatExplorer tools
+- [RepeatExplorer channel on YouTube](https://www.youtube.com/@repeatexplorer4803/videos)
 - [Documentation and training information](http://repeatexplorer.org/)
 - [The impact of genome coverage and sequence read sampling on reproducibility of repeat identification](http://repeatexplorer.org/?page_id=179)
 - Official [Galaxy Project](https://galaxyproject.org/) website with information on how to use the Galaxy platform
@@ -28,17 +29,17 @@ If you need help, need to increase a data quota, or want to report a problem, pl
 
 The RepeatExplorer server provides a suite of tools designed for the comprehensive analysis of repetitive DNA sequences in genomic data. Here are the most common use cases for utilizing these tools:
 
-- **Annotation of Repeats Directly from Low Coverage Sequencing**: Can be accomplished using the RepeatExplorer2 tool. This approach is ideal for initial exploration and annotation of repetitive sequences using low coverage data (refer to protocol 1 in the step-by-step protocols above).
+- **Annotation of repeats directly from low coverage sequencing**: It can be accomplished using the RepeatExplorer2 tool. This approach is ideal for initial exploration and annotation of repetitive sequences using low coverage data (refer to protocol 1 in the step-by-step protocols above).
 
-- **Comparative Analysis of Repeats in Multiple Species from Low Coverage Sequencing Reads**: Use protocol 2 for analyzing repetitive DNA across different species.
+- **Comparative analysis of repeats in multiple species from low coverage sequencing reads**: Use protocol 2 for analyzing repetitive DNA across different species.
 
-- **Tandem Repeat Annotation from Low Coverage Sequencing**: If your focus is primarily on tandem repeats, the Tandem Repeat Analyzer tool (TAREAN). See protocol 3 in the step-by-step protocols for details
+- **Tandem repeat annotation from low coverage sequencing**: If your focus is primarily on tandem repeats, use the Tandem Repeat Analyzer tool (TAREAN). See protocol 3 in the step-by-step protocols for details.
 
-- **Chip-Seq Experiments**: The ChIP-seq Mapper tool identifies centromeric repeats from ChIP-seq data without the need for a complete genome assembly, leveraging assembled contigs from repeat clusters as a reference for mapping reads and highlighting significant repeats. (refer to protocol 4).
+- **Chip-Seq experiments**: The ChIP-seq Mapper tool identifies centromeric repeats from CENH3 ChIP-seq data without the need for a complete genome assembly, leveraging assembled contigs from repeat clusters as a reference for mapping reads and highlighting significantly enriched repeats (refer to protocol 4).
 
-- **Annotation of Full-Length LTR Retrotransposons in Genome Assemblies**: For detailed annotation of LTR retrotransposons within assembled genomes, use the DANTE + DANTE_LTR tools. (see https://github.com/kavonrtep/dante_ltr for details) 
+- **Annotation of full-Length LTR-retrotransposons in genome assemblies**: For detailed annotation of LTR-retrotransposons within assembled genomes, use the DANTE + DANTE_LTR tools. (see https://github.com/kavonrtep/dante_ltr for details) 
 
-- **Annotation of Tandem Repeats in Genome Assemblies**: The TideCluster tools are designed for the annotation and analysis of tandem repeats within genome assemblies. (see https://github.com/kavonrtep/TideCluster for more information)
+- **Annotation of tandem repeats in genome assemblies**: The TideCluster tools are designed for the annotation and analysis of tandem repeats within genome assemblies (see https://github.com/kavonrtep/TideCluster for more information).
 
 
 ## How to Cite
